@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Launch dishes 2
+  host: Launch-dishes-2
+  disk_quota: 1024M
+  services:
+  - Launch dishes 2-cloudantNoSQLDB
+  - Launch dishes 2-iotf-service
